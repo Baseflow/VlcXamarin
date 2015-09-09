@@ -1,0 +1,12 @@
+﻿<metadata>
+    <!--
+        <remove-node path="/api/package[@name='org.videolan.libvlc']/class[@name='MediaList']/method[@name='onEventNative' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='long'] and parameter[3][@type='long']]" />
+    -->
+
+  <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='MediaList']/method[@name='onReleaseNative']" name="visibility">protected</attr>
+
+  <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='MediaList']/method[@name='onEventNative' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='long'] and parameter[3][@type='long']]" name="managedReturn">Java.Lang.Object</attr>
+
+
+
+</metadata>
