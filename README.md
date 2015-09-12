@@ -9,6 +9,10 @@ Plugin is available on [Nuget](https://www.nuget.org/packages/Xam.Plugins.Androi
 Documentation
 =============
 
+    mLibVLC = new LibVLC();
+    mLibVLC.Init(this);
+    mLibVLC.PlayMRL("http://www.someurl.com/sample.mp3");
+
 See the VlcXamarin.Sample sample app.
 
 License
