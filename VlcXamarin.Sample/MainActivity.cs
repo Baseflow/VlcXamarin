@@ -19,14 +19,18 @@ namespace VlcXamarin.Sample
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);
 
+            if(mLibVLC == null)
+            {
+                mLibVLC = new LibVLC();
+                mLibVLC.Init(this);
+            }
+
             // Get our button from the layout resource,
             // and attach an event to it
             Button button = FindViewById<Button> (Resource.Id.myButton);
             
             button.Click += delegate {
                 button.Text = string.Format ("{0} clicks!", count++);
-                if(mLibVLC == null)
-                    mLibVLC = new LibVLC();
                 mLibVLC.PlayMRL("http://www.montemagno.com/sample.mp3");
             };
         }
