@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Org.Videolan.Libvlc
 {
-    public sealed partial class MediaList
+   /* public sealed partial class MediaList
     {
 
         static IntPtr id_onEventNative_IJJ;
@@ -34,5 +34,5 @@ namespace Org.Videolan.Libvlc
             {
             }
         }
-    }
+    }*/
 }

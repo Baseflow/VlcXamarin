@@ -1,16 +1,26 @@
 ﻿<metadata>
   <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='MediaList']/method[@name='onReleaseNative']" name="visibility">protected</attr>
 
-
-  <!-- name mismatch with C# EventHandler namespace error -->
+  <!-- name mismatch with C# EventHandler namespace error 
   <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='EventHandler']" name="managedName">LibVLCEventHandler</attr>
-  
-  
+  -->
   <!-- name mismatch with C# GetType () -->
   <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='Media']/method[@name='getType' and count(parameter)=0]" name="managedName">GetMediaType</attr>
-  
-  <!-- manually addition in MediaListAdditions.cs due to override missing fail -->
+
+  <!-- manually addition in MediaListAdditions.cs due to override missing fail
   <remove-node path="/api/package[@name='org.videolan.libvlc']/class[@name='MediaList']/method[@name='onEventNative' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='long'] and parameter[3][@type='long']]"/>
-  
+
+  <attr path="/api/package[@name='org.videolan.libvlc']/interface[@name='VLCEvent.Listener']" name="managedName">VLCEventListener</attr>
+   -->
+
+  <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='Media.Track.Type']" name="managedName">TrackType</attr>
+  <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='MediaPlayer.Event']/method[@name='getPositionChanged' and count(parameter)=0]" name="managedName">EventPositionChanged</attr>
+  <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='MediaPlayer.Event']/method[@name='getTimeChanged' and count(parameter)=0]" name="managedName">EventTimeChanged</attr>
+
+  <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='LibVLC']" name="managedName">LibVLCLibVLC</attr>
+  <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='Media']" name="managedName">MediaLibVLC</attr>
+
+  <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='VLCObject']" name="visibility">public</attr>
+  <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='VLCEvent']" name="visibility">public</attr>
 
 </metadata>
