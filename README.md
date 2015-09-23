@@ -9,11 +9,25 @@ Plugin is available on [Nuget](https://www.nuget.org/packages/Xam.Plugins.Androi
 Documentation
 =============
 
-    mLibVLC = new LibVLC();
-    mLibVLC.Init(this);
-    mLibVLC.PlayMRL("http://www.someurl.com/sample.mp3");
+    LibVLCLibVLC mLibVLC = null;
+    MediaPlayer mMediaPlayer = null;
+    
+    if(mLibVLC == null)
+    {
+        //Initialize VLC libs
+        mLibVLC = new LibVLCLibVLC();
+        mMediaPlayer = new MediaPlayer(mLibVLC);
+    }
+    //Create new media object
+    var m = new MediaLibVLC(mLibVLC, Android.Net.Uri.Parse("http://www.montemagno.com/sample.mp3"));
 
-See the VlcXamarin.Sample sample app.
+    // Tell the media player to play the new Media.
+    mMediaPlayer.Media = m;
+
+    // Finally, play it!
+    mMediaPlayer.Play();
+
+See the VlcXamarin.Sample sample app for more details.
 
 License
 =======
