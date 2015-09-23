@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Xam.Plugins.Android.VlcXamarin</id>
-        <version>1.0.0</version>
+        <version>2.0.0</version>
         <title>VLC Player Control for Xamarin.Android</title>
         <authors>Martijn van Dijk</authors>
         <owners>Martijn van Dijk</owners>
@@ -11,10 +11,10 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Xamarin bindings for VLC libs</description>
         <summary>Xamarin bindings library for the VLC Player library</summary>
+        <releaseNotes>Library based on VLC lib 3.0.0</releaseNotes>
         <tags>xamarin, mediaplayer, vlc, monodroid, C#, xamarin.android, android</tags>
     </metadata>
     <files>
         <file src="..\VlcXamarin\bin\Release\VlcXamarin.dll" target="lib\MonoAndroid\VlcXamarin.dll" />
-        <file src="..\VlcXamarin\bin\Release\VlcXamarin.pdb" target="lib\MonoAndroid\VlcXamarin.pdb" />
     </files>
 </package>
