@@ -35,7 +35,7 @@ namespace VlcXamarin.Sample
             button.Click += delegate {
                 button.Text = string.Format ("{0} clicks!", count++);
 
-                MediaLibVLC m = new MediaLibVLC(mLibVLC, "http://www.montemagno.com/sample.mp3");
+                var m = new MediaLibVLC(mLibVLC, Android.Net.Uri.Parse("http://www.montemagno.com/sample.mp3"));
 
                 // Tell the media player to play the new Media.
                 mMediaPlayer.Media = m;

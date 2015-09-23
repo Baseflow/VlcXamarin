@@ -23,4 +23,6 @@
   <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='VLCObject']" name="visibility">public</attr>
   <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='VLCEvent']" name="visibility">public</attr>
 
+  <remove-node path="/api/package[@name='org.videolan.libvlc']/interface[@name='VLCEvent.Listener']" />
+
 </metadata>
