@@ -29,6 +29,11 @@ Documentation
 
 See the VlcXamarin.Sample sample app for more details.
 
+Acknowledgements
+=======
+
+* [thefex](https://github.com/thefex) for helping with several issue's
+
 License
 =======
 
