@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Xam.Plugins.Android.VlcXamarin</id>
-        <version>2.0.0</version>
+        <version>3.0.0</version>
         <title>VLC Player Control for Xamarin.Android</title>
         <authors>Martijn van Dijk</authors>
         <owners>Martijn van Dijk</owners>
