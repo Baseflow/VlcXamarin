@@ -4,7 +4,7 @@ Xamarin bindings library for VLC player library for Android
 
 For more information on VLC see the [Developer documentation](https://github.com/mrmaffen/vlc-android-sdk)
 
-Find latest [Java lib](https://bintray.com/tomasvalenta/maven/libVLC-android/view)
+Find latest [Java lib](https://bintray.com/steiner/maven/libvlc-android/)
 
 Plugin is available on [Nuget](https://www.nuget.org/packages/Xam.Plugins.Android.VlcXamarin/)
 
