@@ -24,7 +24,7 @@ namespace VlcXamarin.Sample
 
             if(mLibVLC == null)
             {
-                mLibVLC = new LibVLCLibVLC();
+                mLibVLC = new LibVLCLibVLC(this);
                 mMediaPlayer = new MediaPlayer(mLibVLC);
             }
 
