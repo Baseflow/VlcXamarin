@@ -8,6 +8,7 @@
         <owners>Martijn van Dijk</owners>
         <licenseUrl>https://github.com/martijn00/VlcXamarin/blob/master/LICENSE.md</licenseUrl>
         <projectUrl>https://github.com/martijn00/VlcXamarin</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/martijn00/VlcXamarin/master/icon_vlc.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Xamarin bindings for VLC libs</description>
         <summary>Xamarin bindings library for the VLC Player library</summary>
