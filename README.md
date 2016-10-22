@@ -17,7 +17,7 @@ Documentation
     if(mLibVLC == null)
     {
         //Initialize VLC libs
-        mLibVLC = new LibVLCLibVLC();
+        mLibVLC = new LibVLCLibVLC(this);
         mMediaPlayer = new MediaPlayer(mLibVLC);
     }
     //Create new media object
